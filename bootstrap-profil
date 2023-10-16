@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- icon bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Profil|Guslan</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparan fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold fst-italic fs-3 text-light" href="#"
+          >My-Profil</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active fs-5 text-light"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 ms-4 text-light" href="#">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 ms-4 text-light" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 ms-4 text-light" href="#">Photofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 ms-4 text-light" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- carausel -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/jumbotron.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block mb-5 pb-5">
+            <img
+              src="img/profil.jpg"
+              alt=""
+              style="width: 15rem"
+              class="rounded-pill border border-warning border-5"
+            />
+            <h5 class="fs-1 text-light">MUDAHKAN HIDUPMU DENGAN JASA KAMI</h5>
+            <p class="fs-4 text-light">
+              Terlihat tenang dan sejuk, namun bisa berbahaya.
+            </p>
+            <button
+              class="btn btn-warning fs-5 px-5 fw-bold text-white rounded-pill"
+            >
+              Follow
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <div class="container-fluid bg-dark py-5">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-md mb-4">
+            <img src="img/photo.jpg" alt="" class="img-thumbnail" />
+          </div>
+          <div class="col-md">
+            <h2 class="fs-3 fw-bold text-white">About Me</h2>
+            <p class="text-white fs-5 mt-3">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae,
+              voluptatum in. Voluptate quis, reiciendis id nemo suscipit, ullam
+              voluptatum totam ipsum perferendis dolores mollitia consequatur
+              quaerat veritatis cum dolore velit aliquid maiores? Ducimus
+              laborum explicabo id molestias, deleniti recusandae beatae
+              doloribus nemo error omnis sequi blanditiis impedit atque. Ipsam,
+              quod.
+            </p>
+            <div class="media-sosial">
+              <a href="" class="text-danger fs-3 bg-body rounded me-2"
+                ><i class="bi bi-youtube px-2"></i
+              ></a>
+              <a href="" class="text-white fs-3 bg-danger px-2 rounded me-2"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="" class="text-primary fs-3 bg-white px-2 rounded me-2"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="" class="text-white bg-dark fs-3 px-2 rounded me-2"
+                ><i class="bi bi-tiktok"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services -->
+    <section class="bg-light">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-sm-6 col-md-4 col mb-3">
+            <div class="card">
+              <img src="img/vr-ia.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Teknologi Augmented Reality (AR) dan Virtual Reality (VR)
+                </h5>
+                <p class="card-text">
+                  Jasa terkait AR dan VR, seperti pengembangan aplikasi dan
+                  pengalaman AR/VR, konsultasi, dan pelatihan, mungkin akan
+                  berkembang pesat. Ini dapat digunakan dalam berbagai industri,
+                  termasuk pendidikan, permainan, real estate, dan perawatan
+                  kesehatan.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card">
+              <img src="img/sekuriti.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Keamanan Cybersecurity</h5>
+                <p class="card-text">
+                  Semakin kompleksnya ancaman siber membuat permintaan akan
+                  layanan keamanan siber terus meningkat. Perusahaan membutuhkan
+                  keamanan yang kuat untuk melindungi data dan sistem mereka
+                  dari serangan siber.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card">
+              <img src="img/consultan.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Konsultan Keberlanjutan</h5>
+                <p class="card-text">
+                  Dalam upaya untuk mengurangi dampak lingkungan dan mematuhi
+                  regulasi keberlanjutan, banyak perusahaan akan membutuhkan
+                  konsultan yang ahli dalam strategi keberlanjutan dan praktik
+                  bisnis berkelanjutan.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card">
+              <img
+                src="img/konsultasi-kesehatan.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pelayanan Kesehatan Digital</h5>
+                <p class="card-text">
+                  Meningkatnya adopsi teknologi di sektor kesehatan dapat
+                  membuka peluang untuk penyedia layanan kesehatan digital,
+                  termasuk telemedicine, pemantauan kesehatan jarak jauh, dan
+                  manajemen data medis.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card">
+              <img
+                src="img/pendidikan online.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Jasa Pendidikan Online</h5>
+                <p class="card-text">
+                  Kebutuhan akan pembelajaran jarak jauh dan online kemungkinan
+                  akan tetap tinggi. Ini mencakup pembuatan kursus online,
+                  platform pembelajaran, dan jasa pelatihan online.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="card">
+              <img
+                src="img/pendidikan-digital.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Edukasi Keterampilan Digital</h5>
+                <p class="card-text">
+                  Pelatihan dan kursus untuk mengembangkan keterampilan digital
+                  seperti pemrograman, desain grafis, dan analisis data akan
+                  tetap relevan.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTOFOLIO -->
+    <section class="bg-dark py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+            <!-- Button gambar 1 -->
+            <div
+              class="card cardPhoto"
+              data-bs-toggle="modal"
+              data-bs-target="#modalGambar1"
+            >
+              <img src="img/photo5.jpg" alt="" class="w-100" />
+            </div>
+            <!-- Modal gambar 1 -->
+            <div
+              class="modal fade"
+              id="modalGambar1"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      GRAB CONSULTAN
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="img/photo5.jpg" class="w-100" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+            <!-- Button gambar 1 -->
+            <div
+              class="card cardPhoto"
+              data-bs-toggle="modal"
+              data-bs-target="#modalGambar2"
+            >
+              <img src="img/photo2.jpg" alt="" class="w-100" />
+            </div>
+            <!-- Modal gambar 1 -->
+            <div
+              class="modal fade"
+              id="modalGambar2"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      GRAB CONSULTAN
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="img/photo2.jpg" class="w-100" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+            <!-- Button gambar 1 -->
+            <div
+              class="card cardPhoto"
+              data-bs-toggle="modal"
+              data-bs-target="#modalGambar3"
+            >
+              <img src="img/photo3.jpg" alt="" class="w-100" />
+            </div>
+            <!-- Modal gambar 1 -->
+            <div
+              class="modal fade"
+              id="modalGambar3"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      GRAB CONSULTAN
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="img/photo3.jpg" class="w-100" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+            <!-- Button gambar 1 -->
+            <div
+              class="card cardPhoto"
+              data-bs-toggle="modal"
+              data-bs-target="#modalGambar4"
+            >
+              <img src="img/photo4.jpg" alt="" class="w-100" />
+            </div>
+            <!-- Modal gambar 1 -->
+            <div
+              class="modal fade"
+              id="modalGambar4"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      GRAB CONSULTAN
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="img/photo4.jpg" class="w-100" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+            <!-- Button gambar 1 -->
+            <div
+              class="card cardPhoto"
+              data-bs-toggle="modal"
+              data-bs-target="#modalGambar5"
+            >
+              <img src="img/photo1.jpg" alt="" class="w-100" />
+            </div>
+            <!-- Modal gambar 1 -->
+            <div
+              class="modal fade"
+              id="modalGambar5"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      GRAB CONSULTAN
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="img/photo1.jpg" class="w-100" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+            <!-- Button gambar 1 -->
+            <div
+              class="card cardPhoto"
+              data-bs-toggle="modal"
+              data-bs-target="#modalGambar6"
+            >
+              <img src="img/photo6.jpg" alt="" class="w-100" />
+            </div>
+            <!-- Modal gambar 1 -->
+            <div
+              class="modal fade"
+              id="modalGambar6"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      GRAB CONSULTAN
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="img/photo6.jpg" class="w-100" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+            <!-- Button gambar 1 -->
+            <div
+              class="card cardPhoto"
+              data-bs-toggle="modal"
+              data-bs-target="#modalGambar7"
+            >
+              <img src="img/photo7.jpg" alt="" class="w-100" />
+            </div>
+            <!-- Modal gambar 1 -->
+            <div
+              class="modal fade"
+              id="modalGambar7"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      GRAB CONSULTAN
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="img/photo7.jpg" class="w-100" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+            <!-- Button gambar 1 -->
+            <div
+              class="card cardPhoto"
+              data-bs-toggle="modal"
+              data-bs-target="#modalGambar8"
+            >
+              <img src="img/photo8.jpg" alt="" class="w-100" />
+            </div>
+            <!-- Modal gambar 1 -->
+            <div
+              class="modal fade"
+              id="modalGambar8"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      GRAB CONSULTAN
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="img/photo8.jpg" class="w-100" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contack -->
+    <section class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1817.0425718056586!2d122.04251242518683!3d-5.319412439206222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2da3664e09fac2dd%3A0xc92deecb7bad23ba!2sMasjid%20Babul%20Amal!5e1!3m2!1sen!2sid!4v1697154858708!5m2!1sen!2sid"
+                class="w-100"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <h2 class="fs-3 text-warning mt-5 mb-3">Contact Me</h2>
+            <form action="">
+              <div class="input-group mb-3 border border-warning rounded">
+                <span class="input-group-text" id="basic-addon1"
+                  ><i class="bi bi-person-bounding-box"></i
+                ></span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Nama Lengkap"
+                  aria-label="Nama Lengkap"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <div class="input-group mb-3 border border-warning rounded">
+                <span class="input-group-text" id="basic-addon1"
+                  ><i class="bi bi-envelope-at"></i
+                ></span>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email"
+                  aria-label="Email"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <div class="input-group mb-3 border border-warning rounded">
+                <span class="input-group-text" id="basic-addon1"
+                  ><i class="bi bi-whatsapp"></i
+                ></span>
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="No. Whatshapp"
+                  aria-label="No. Whatshpp"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+              <div class="input-group mb-3 border border-warning rounded">
+                <span class="input-group-text"
+                  ><i class="bi bi-chat-left-text"></i
+                ></span>
+                <textarea
+                  class="form-control"
+                  aria-label="With textarea"
+                  placeholder="Pesan"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-warning text-white fw-bold">
+                Kirim Pesan
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
